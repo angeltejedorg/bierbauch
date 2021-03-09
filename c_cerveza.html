@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">        <link rel="stylesheet" href="css/miestilo.css" type="text/css" >        
+        <link href="css/miestilo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="fondo"> 
+        <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top navshadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/beerlogo.jpg" alt="" width="70">                        
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" id="anchomenu" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" id="anchomenu" href="beer.html">Cervezas</a></li>
+                        <li class="nav-item"><a class="nav-link" id="anchomenu" href="historia.html">Historia</a></li>
+                        <li class="nav-item"><a class="nav-link" id="anchomenu" href="p-cervecero.html">Proceso Cervecero</a></li>
+                        <li class="nav-item"><a class="nav-link" id="anchomenu" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid banner p-0">
+            <img src="img/tipoportada.jpg" alt="" class="w-100">
+        </div>
+        <div class="container-fluid text-center p-4">
+            <h1 class="wcolor text-white">Clases de Cervezas</h1>
+            <div id="border"></div>
+        </div>
+        <div class=" container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="container d-none d-md-block">
+                        <div class="row p-3">
+                        </div>
+                        <div class="row text-white sidemenu wcolor">
+                            <a href="beer.html"><h5 class="p-2">La cerveza</h5></a>
+                        </div>
+                        <div class="row text-white sidemenu wcolor">
+                            <a href="c_cerveza.html"><h5 class="p-2">Clases de cerveza</h5></a>
+                        </div>
+                        <div class="row text-white sidemenu wcolor">
+                            <a href="i_cerveza.html"><h5 class="p-2">Ingredientes de la cerveza</h5></a>
+                        </div>
+                        <div class="row text-white sidemenu wcolor">
+                            <a href="#"><h5 class="p-2">Ritual de servido</h5></a>
+                        </div>
+                    </div>
+                
+               
+                    <div class="sidebar d-block d-sm-none" id="mySidebar">
+                        <a href="javascript:void(0)"class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="beer.html">La cerveza</a>
+                        <a href="c_cerveza.html">Clases de cerveza</a>
+                        <a href="i_cerveza.html">Ingredientes de la cerveza</a>
+                        <a href="#">Ritual de servido</a>
+                    </div>
+                    <div id="main">
+                        <button class="openbtn d-block d-sm-none" onclick="openNav()">&#9776; Menú</button>
+                    </div>
+                </div>
+                <div class="col-md-8 text-white">
+                    <figure>
+                        <blockquote class="blockquote">
+                          <h5 class="wcolor">El que bebe, se emborracha</h5>
+                          <h5 class="wcolor">el que se emborracha duerme</h5>
+                          <h5 class="wcolor">el que duerme no peca</h5>
+                          <h5 class="wcolor">el que peca no va al cielo</h5>
+                          <h5 class="wcolor"> y, puesto que al cielo vamos </h5>
+                          <h5 class="wcolor">bebamos...</h5>
+                        </blockquote>
+                        <br>
+                        <figcaption class="blockquote-footer">
+                         Anonimo <cite title="Source Title"></cite>
+                        </figcaption>
+                      </figure>
+                    <p class="fw-light">
+                        Las cervezas se clasifican principalmente por el tipo de levadura utilizada y pueden ser: lager, ale y lambic.
+                    </p>
+
+                    <div class="row">
+                        
+                        <div class="col">
+                            <div class="card bg-dark" style="width: 17rem;">
+                                <img src="img/lager3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6>Cerveza tipo Lager</h6>
+                                  <p class="card-text text-light">
+                                     Utilizan levaduras que al final del proceso de fermentacion van al fondo del tanque.
+                                     Tienen contenidos de alcohol entre los 4 y 13 grados y su amargo y color son intensos. 
+                                     Son las mas populares del mundo                        
+                                  </p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-dark" style="width: 17rem;">
+                                <img src="img/ale.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6>Cerveza tipo Ale</h6>
+                                  <p class="card-text text-light">
+                                      Utilizan levaduras que al final del proceso van a la parte superior de los tanques y tienen alcoholes
+                                      entre 2.5 y 10 grados. El amargo y el color son mas intensos que en los tipo lager.
+                                  </p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <div class="card bg-dark" style="width: 17rem;">
+                                    <img src="img/lambic.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h6>Cerveza tipo Lambic</h6>
+                                      <p class="card-text text-light">
+                                         Son cervezas que se ponene en contacto con el ambiente de modo que las levaduras y bacterias
+                                         presentes se encargan de realizar la fermentación pero no se controlan como en las lager y ale.
+                                      </p>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        
+        <footer class="pt-5">
+            
+            <div class="container-fluid text-white p-4">
+                <p> Elaborado por Angel Tejedor</p> 
+                <p>Estudiante de Desarrollo de software y aplicaciones moviles, Politecnico Internacional</p>
+                <p> Celular: +57 310 443 6751</p>
+                <p>E-mail: angeltejedorg@gmail.com</p>
+            </div>
+        </footer>
+        <script src="js/fuction.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    </body>
+</html>

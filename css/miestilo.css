@@ -1,0 +1,181 @@
+.fondo {
+    background-color: #333;
+}
+#anchomenu{
+    padding-right: 25px;
+}
+.textop{
+    top: 0;
+    bottom: auto;
+ }
+
+.wcolor {
+    text-shadow: 4px 4px 5px black;
+}
+
+
+.sombra{
+    text-shadow: 4px 4px 5px gray ;
+}
+.sombra-w{
+    text-shadow: 4px 4px 5px white ;
+}
+.titlebrand {
+    display: block;
+    float:left; 
+}
+
+.banner {
+    position: relative;
+    margin: 0 auto;
+}
+.heading {
+    position:absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.heading-sm {
+    position:absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+}
+.bottomline {
+    position:absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottomline-sm {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+#middle {
+    text-align: center;
+    box-shadow: 0px 0px 7px black;
+    margin-top: 5px;
+}
+
+.fondoblur {
+    opacity: 0.8;
+    height: auto;
+}
+
+.navshadow {
+    box-shadow: 0px 0px 7px black;
+}
+.content {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    width: 100%;
+}
+.content-sm {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 5px 15px 0px;
+    width: 100%;
+}
+
+#border {
+    position: relative;
+    width: 5%;
+    height: 4px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 4px 4px 7px black;
+}
+
+.sbutton {
+    margin-top:3px;
+}
+.sidemenu a{
+    text-decoration: none;
+    color:white;
+}
+.sidemenu{
+    text-align: left;
+    width: 90%;
+    margin-left: 20px;
+}
+.sidemenu h5:hover {
+    background-color: white;
+    color: #333;
+}
+
+.accordion .accordion-button{
+    border-color: white;
+    color:white;
+    font-weight: bold;
+}
+.sidebar {
+    height: 100%; 
+    width: 0;
+    position: fixed;
+    z-index: 1; 
+    top: 73px;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.openbtn {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: #f1f1f1;
+  }
+  #main {
+    transition: margin-left .5s; 
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  footer .container-fluid{
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    font-size: 12px;
+    font-family: sans-serif;
+
+
+  }
